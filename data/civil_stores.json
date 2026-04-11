@@ -1,0 +1,717 @@
+{
+  "depot": {
+    "name": "Gebze Güzeller Lojistik Depo",
+    "city": "Kocaeli",
+    "lat": 40.8,
+    "lon": 29.43
+  },
+  "stores": [
+    {
+      "id": 1,
+      "name": "Adana Esas 01 Burda Avm",
+      "city": "Adana",
+      "lat": 37.0,
+      "lon": 35.32
+    },
+    {
+      "id": 2,
+      "name": "Adana Optimum AVM",
+      "city": "Adana",
+      "lat": 36.98,
+      "lon": 35.35
+    },
+    {
+      "id": 3,
+      "name": "Seyhan Cadde / Adana",
+      "city": "Adana",
+      "lat": 37.0,
+      "lon": 35.33
+    },
+    {
+      "id": 4,
+      "name": "Park Avm / Adıyaman",
+      "city": "Adıyaman",
+      "lat": 37.76,
+      "lon": 38.28
+    },
+    {
+      "id": 5,
+      "name": "Merkez / Afyon",
+      "city": "Afyonkarahisar",
+      "lat": 38.73,
+      "lon": 30.54
+    },
+    {
+      "id": 6,
+      "name": "Watermall Avm / Afyon",
+      "city": "Afyonkarahisar",
+      "lat": 38.74,
+      "lon": 30.53
+    },
+    {
+      "id": 7,
+      "name": "Merkez / Ağrı",
+      "city": "Ağrı",
+      "lat": 39.72,
+      "lon": 43.05
+    },
+    {
+      "id": 8,
+      "name": "Merkez / Aksaray",
+      "city": "Aksaray",
+      "lat": 38.37,
+      "lon": 34.03
+    },
+    {
+      "id": 9,
+      "name": "Etimesgut / Ankara",
+      "city": "Ankara",
+      "lat": 39.95,
+      "lon": 32.69
+    },
+    {
+      "id": 10,
+      "name": "Etlik / Ankara",
+      "city": "Ankara",
+      "lat": 39.97,
+      "lon": 32.87
+    },
+    {
+      "id": 11,
+      "name": "Gimsa Park Eryaman Avm / Ankara",
+      "city": "Ankara",
+      "lat": 39.92,
+      "lon": 32.63
+    },
+    {
+      "id": 12,
+      "name": "Nata Vega Outlet AVM / Ankara",
+      "city": "Ankara",
+      "lat": 39.92,
+      "lon": 32.93
+    },
+    {
+      "id": 13,
+      "name": "Sincan / Ankara",
+      "city": "Ankara",
+      "lat": 39.97,
+      "lon": 32.58
+    },
+    {
+      "id": 14,
+      "name": "Alanya / Antalya",
+      "city": "Antalya",
+      "lat": 36.54,
+      "lon": 32.0
+    },
+    {
+      "id": 15,
+      "name": "Kepez / Antalya",
+      "city": "Antalya",
+      "lat": 36.93,
+      "lon": 30.65
+    },
+    {
+      "id": 16,
+      "name": "Mark Antalya AVM",
+      "city": "Antalya",
+      "lat": 36.88,
+      "lon": 30.71
+    },
+    {
+      "id": 17,
+      "name": "Muratpaşa / Antalya",
+      "city": "Antalya",
+      "lat": 36.88,
+      "lon": 30.72
+    },
+    {
+      "id": 18,
+      "name": "Efeler / Aydın",
+      "city": "Aydın",
+      "lat": 37.85,
+      "lon": 27.85
+    },
+    {
+      "id": 19,
+      "name": "Karesi / Balıkesir",
+      "city": "Balıkesir",
+      "lat": 39.65,
+      "lon": 27.89
+    },
+    {
+      "id": 20,
+      "name": "Batman - Gültepe",
+      "city": "Batman",
+      "lat": 37.88,
+      "lon": 41.13
+    },
+    {
+      "id": 21,
+      "name": "Merkez / Batman",
+      "city": "Batman",
+      "lat": 37.87,
+      "lon": 41.12
+    },
+    {
+      "id": 22,
+      "name": "Merkez / Bolu",
+      "city": "Bolu",
+      "lat": 40.73,
+      "lon": 31.61
+    },
+    {
+      "id": 23,
+      "name": "Beşyol / Bursa",
+      "city": "Bursa",
+      "lat": 40.19,
+      "lon": 29.0
+    },
+    {
+      "id": 24,
+      "name": "İnegöl / Bursa",
+      "city": "Bursa",
+      "lat": 40.08,
+      "lon": 29.51
+    },
+    {
+      "id": 25,
+      "name": "Nilüfer / Bursa",
+      "city": "Bursa",
+      "lat": 40.22,
+      "lon": 28.87
+    },
+    {
+      "id": 26,
+      "name": "Osmangazi / Bursa",
+      "city": "Bursa",
+      "lat": 40.18,
+      "lon": 29.07
+    },
+    {
+      "id": 27,
+      "name": "Kepez / Çanakkale",
+      "city": "Çanakkale",
+      "lat": 40.15,
+      "lon": 26.41
+    },
+    {
+      "id": 28,
+      "name": "Merkez / Çorum",
+      "city": "Çorum",
+      "lat": 40.55,
+      "lon": 34.96
+    },
+    {
+      "id": 29,
+      "name": "Merkezefendi / Denizli",
+      "city": "Denizli",
+      "lat": 37.77,
+      "lon": 29.09
+    },
+    {
+      "id": 30,
+      "name": "Bağlar / Diyarbakır",
+      "city": "Diyarbakır",
+      "lat": 37.91,
+      "lon": 40.21
+    },
+    {
+      "id": 31,
+      "name": "Ceylan Karavil Park / Diyarbakır",
+      "city": "Diyarbakır",
+      "lat": 37.93,
+      "lon": 40.16
+    },
+    {
+      "id": 32,
+      "name": "Merkez / Düzce",
+      "city": "Düzce",
+      "lat": 40.84,
+      "lon": 31.16
+    },
+    {
+      "id": 33,
+      "name": "Elysium Park AVM / Elazığ",
+      "city": "Elazığ",
+      "lat": 38.67,
+      "lon": 39.22
+    },
+    {
+      "id": 34,
+      "name": "Merkez / Erzincan",
+      "city": "Erzincan",
+      "lat": 39.75,
+      "lon": 39.49
+    },
+    {
+      "id": 35,
+      "name": "Mng Avm / Erzurum",
+      "city": "Erzurum",
+      "lat": 39.91,
+      "lon": 41.27
+    },
+    {
+      "id": 36,
+      "name": "Odunpazarı / Eskişehir",
+      "city": "Eskişehir",
+      "lat": 39.77,
+      "lon": 30.52
+    },
+    {
+      "id": 37,
+      "name": "Vega Outlet Avm / Eskişehir",
+      "city": "Eskişehir",
+      "lat": 39.78,
+      "lon": 30.49
+    },
+    {
+      "id": 38,
+      "name": "Şehitkamil / Gaziantep",
+      "city": "Gaziantep",
+      "lat": 37.07,
+      "lon": 37.39
+    },
+    {
+      "id": 39,
+      "name": "Sabah Center AVM / Giresun",
+      "city": "Giresun",
+      "lat": 40.91,
+      "lon": 38.39
+    },
+    {
+      "id": 40,
+      "name": "İskenderun / Hatay",
+      "city": "Hatay",
+      "lat": 36.58,
+      "lon": 36.17
+    },
+    {
+      "id": 41,
+      "name": "Meydan AVM / Isparta",
+      "city": "Isparta",
+      "lat": 37.76,
+      "lon": 30.56
+    },
+    {
+      "id": 42,
+      "name": "212 Power Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.06,
+      "lon": 28.83
+    },
+    {
+      "id": 43,
+      "name": "Bağcılar / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.04,
+      "lon": 28.85
+    },
+    {
+      "id": 44,
+      "name": "Beylikdüzü e-5 Cadde / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.0,
+      "lon": 28.64
+    },
+    {
+      "id": 45,
+      "name": "Dudullu / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.02,
+      "lon": 29.16
+    },
+    {
+      "id": 46,
+      "name": "Esenler Atışalanı / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.05,
+      "lon": 28.88
+    },
+    {
+      "id": 47,
+      "name": "Esenyurt / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.03,
+      "lon": 28.67
+    },
+    {
+      "id": 48,
+      "name": "Fatih / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.02,
+      "lon": 28.95
+    },
+    {
+      "id": 49,
+      "name": "Haramidere / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.0,
+      "lon": 28.67
+    },
+    {
+      "id": 50,
+      "name": "Kartal M1 Outlet Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.89,
+      "lon": 29.19
+    },
+    {
+      "id": 51,
+      "name": "Küçükköy / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.07,
+      "lon": 28.9
+    },
+    {
+      "id": 52,
+      "name": "Mall Of Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.06,
+      "lon": 28.81
+    },
+    {
+      "id": 53,
+      "name": "Maltepe Outlet / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.93,
+      "lon": 29.13
+    },
+    {
+      "id": 54,
+      "name": "Maltepe Park Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.93,
+      "lon": 29.15
+    },
+    {
+      "id": 55,
+      "name": "Pendik / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.88,
+      "lon": 29.25
+    },
+    {
+      "id": 56,
+      "name": "Neomarin Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.92,
+      "lon": 29.2
+    },
+    {
+      "id": 57,
+      "name": "Sancaktepe / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.0,
+      "lon": 29.23
+    },
+    {
+      "id": 58,
+      "name": "Sultanbeyli / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.96,
+      "lon": 29.27
+    },
+    {
+      "id": 59,
+      "name": "Sultanbeyli Outlet / İstanbul",
+      "city": "İstanbul",
+      "lat": 40.96,
+      "lon": 29.28
+    },
+    {
+      "id": 60,
+      "name": "Sultangazi / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.1,
+      "lon": 28.87
+    },
+    {
+      "id": 61,
+      "name": "Ümraniye Alemdağ / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.03,
+      "lon": 29.12
+    },
+    {
+      "id": 62,
+      "name": "Vega Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.06,
+      "lon": 28.85
+    },
+    {
+      "id": 63,
+      "name": "Vialand Avm / İstanbul",
+      "city": "İstanbul",
+      "lat": 41.07,
+      "lon": 28.93
+    },
+    {
+      "id": 64,
+      "name": "Gaziemir / İzmir",
+      "city": "İzmir",
+      "lat": 38.32,
+      "lon": 27.13
+    },
+    {
+      "id": 65,
+      "name": "Westpark AVM / İzmir",
+      "city": "İzmir",
+      "lat": 38.33,
+      "lon": 27.11
+    },
+    {
+      "id": 66,
+      "name": "Piazza AVM / Kahramanmaraş",
+      "city": "Kahramanmaraş",
+      "lat": 37.58,
+      "lon": 36.93
+    },
+    {
+      "id": 67,
+      "name": "Karabük / Merkez",
+      "city": "Karabük",
+      "lat": 41.2,
+      "lon": 32.62
+    },
+    {
+      "id": 68,
+      "name": "Merkez / Karaman",
+      "city": "Karaman",
+      "lat": 37.18,
+      "lon": 33.23
+    },
+    {
+      "id": 69,
+      "name": "Merkez / Kastamonu",
+      "city": "Kastamonu",
+      "lat": 41.38,
+      "lon": 33.77
+    },
+    {
+      "id": 70,
+      "name": "Melikgazi / Kayseri",
+      "city": "Kayseri",
+      "lat": 38.73,
+      "lon": 35.49
+    },
+    {
+      "id": 71,
+      "name": "Meysu Avm / Kayseri",
+      "city": "Kayseri",
+      "lat": 38.7,
+      "lon": 35.5
+    },
+    {
+      "id": 72,
+      "name": "Merkez / Kırıkkale",
+      "city": "Kırıkkale",
+      "lat": 39.85,
+      "lon": 33.51
+    },
+    {
+      "id": 73,
+      "name": "Merkez / Kırşehir",
+      "city": "Kırşehir",
+      "lat": 39.15,
+      "lon": 34.16
+    },
+    {
+      "id": 74,
+      "name": "Gebze / Kocaeli",
+      "city": "Kocaeli",
+      "lat": 40.8,
+      "lon": 29.43
+    },
+    {
+      "id": 75,
+      "name": "İzmit / Kocaeli",
+      "city": "Kocaeli",
+      "lat": 40.77,
+      "lon": 29.92
+    },
+    {
+      "id": 76,
+      "name": "Entepe Avm / Konya",
+      "city": "Konya",
+      "lat": 37.87,
+      "lon": 32.5
+    },
+    {
+      "id": 77,
+      "name": "Selçuklu / Konya",
+      "city": "Konya",
+      "lat": 37.88,
+      "lon": 32.49
+    },
+    {
+      "id": 78,
+      "name": "Merkez / Kütahya",
+      "city": "Kütahya",
+      "lat": 39.42,
+      "lon": 29.98
+    },
+    {
+      "id": 79,
+      "name": "Life Avm / Malatya",
+      "city": "Malatya",
+      "lat": 38.35,
+      "lon": 38.31
+    },
+    {
+      "id": 80,
+      "name": "Artuklu / Mardin",
+      "city": "Mardin",
+      "lat": 37.31,
+      "lon": 40.73
+    },
+    {
+      "id": 81,
+      "name": "Akdeniz / Mersin",
+      "city": "Mersin",
+      "lat": 36.8,
+      "lon": 34.64
+    },
+    {
+      "id": 82,
+      "name": "Muğla - Bodrum",
+      "city": "Muğla",
+      "lat": 37.04,
+      "lon": 27.43
+    },
+    {
+      "id": 83,
+      "name": "Merkez / Niğde",
+      "city": "Niğde",
+      "lat": 37.97,
+      "lon": 34.69
+    },
+    {
+      "id": 84,
+      "name": "Altınordu / Ordu",
+      "city": "Ordu",
+      "lat": 41.0,
+      "lon": 37.88
+    },
+    {
+      "id": 85,
+      "name": "Merkez / Osmaniye",
+      "city": "Osmaniye",
+      "lat": 37.07,
+      "lon": 36.25
+    },
+    {
+      "id": 86,
+      "name": "Merkez / Rize",
+      "city": "Rize",
+      "lat": 41.02,
+      "lon": 40.52
+    },
+    {
+      "id": 87,
+      "name": "Adapazarı / Sakarya",
+      "city": "Sakarya",
+      "lat": 40.67,
+      "lon": 30.4
+    },
+    {
+      "id": 88,
+      "name": "İlkadım / Samsun",
+      "city": "Samsun",
+      "lat": 41.29,
+      "lon": 36.33
+    },
+    {
+      "id": 89,
+      "name": "Piazza AVM / Samsun",
+      "city": "Samsun",
+      "lat": 41.24,
+      "lon": 36.44
+    },
+    {
+      "id": 90,
+      "name": "Park Avm / Siirt",
+      "city": "Siirt",
+      "lat": 37.93,
+      "lon": 41.94
+    },
+    {
+      "id": 91,
+      "name": "İvapark Avm / Sivas",
+      "city": "Sivas",
+      "lat": 39.75,
+      "lon": 36.99
+    },
+    {
+      "id": 92,
+      "name": "Merkez / Sivas",
+      "city": "Sivas",
+      "lat": 39.75,
+      "lon": 37.02
+    },
+    {
+      "id": 93,
+      "name": "Şanlıurfa Piazza Avm",
+      "city": "Şanlıurfa",
+      "lat": 37.16,
+      "lon": 38.79
+    },
+    {
+      "id": 94,
+      "name": "Çerkezköy / Tekirdağ",
+      "city": "Tekirdağ",
+      "lat": 41.28,
+      "lon": 27.99
+    },
+    {
+      "id": 95,
+      "name": "Çorlu / Tekirdağ",
+      "city": "Tekirdağ",
+      "lat": 41.16,
+      "lon": 27.8
+    },
+    {
+      "id": 96,
+      "name": "Novada Avm / Tokat",
+      "city": "Tokat",
+      "lat": 40.31,
+      "lon": 36.55
+    },
+    {
+      "id": 97,
+      "name": "Ortahisar / Trabzon",
+      "city": "Trabzon",
+      "lat": 41.0,
+      "lon": 39.72
+    },
+    {
+      "id": 98,
+      "name": "Rubenis Outlet Avm / Trabzon",
+      "city": "Trabzon",
+      "lat": 41.01,
+      "lon": 39.71
+    },
+    {
+      "id": 99,
+      "name": "İpekyolu / Van",
+      "city": "Van",
+      "lat": 38.49,
+      "lon": 43.38
+    },
+    {
+      "id": 100,
+      "name": "Merkez / Yalova",
+      "city": "Yalova",
+      "lat": 40.65,
+      "lon": 29.27
+    },
+    {
+      "id": 101,
+      "name": "Yimpaş Avm / Yozgat",
+      "city": "Yozgat",
+      "lat": 39.82,
+      "lon": 34.81
+    }
+  ]
+}
