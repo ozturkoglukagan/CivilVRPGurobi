@@ -91,11 +91,11 @@ class GurobiVRPSolver:
             self.model.addConstr(gp.quicksum(self.x[0, j, v] for j in self.S) >= gp.quicksum(self.x[0, j, v+1] for j in self.S))
             
         # Pre-assign dense nearby routes to trucks mathematically
-        FORCE_TRUCK_RADIUS = 100
-        for i in self.S:
-            if self.data['dist_matrix'][0, i] <= FORCE_TRUCK_RADIUS and self.data['demands'][i] >= 1:
-                self.model.addConstr(self.k[i] == 0)
-                self.model.addConstr(self.r[i] == 1)
+        # FORCE_TRUCK_RADIUS = 100
+        # for i in self.S:
+        #     if self.data['dist_matrix'][0, i] <= FORCE_TRUCK_RADIUS and self.data['demands'][i] >= 1:
+        #         self.model.addConstr(self.k[i] == 0)
+        #         self.model.addConstr(self.r[i] == 1)
                 
     def solve(self):
         self.model.optimize()

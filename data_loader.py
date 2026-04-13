@@ -47,7 +47,7 @@ class CivilDataLoader:
                 
         return store_data, demands_data, shipping_rates
 
-    def load_and_process(self, week_num=1, max_stores=30):
+    def load_and_process(self, week_num=1, max_stores=30, demand_multiplier=1.0, transport_multiplier=1.0):
         store_data, demands_data, shipping_rates = self._load_raw_data(week_num)
         
         depot = store_data['depot']
@@ -86,8 +86,8 @@ class CivilDataLoader:
             full_name = f"{s['city']} {s['name']}"
             sd = demands_data.get(full_name, {'pallets': 2, 'desi': 500})
             
-            pallets = sd['pallets']
-            desi = sd['desi']
+            pallets = math.ceil(sd['pallets'] * demand_multiplier)
+            desi = sd['desi'] * demand_multiplier
             city = s['city']
             
             csv_key = get_istanbul_key(s['lon']) if city == "İstanbul" else city_normalize.get(city, city.upper())
@@ -126,9 +126,9 @@ class CivilDataLoader:
                     d = self.haversine(split_coords[i][1], split_coords[i][0], split_coords[j][1], split_coords[j][0]) * 1.3
                     dist_matrix[i, j] = round(d, 1)
                     if j == 0:
-                        empty_cost_matrix[i, j] = round(d * 8, 2) # Empty return
+                        empty_cost_matrix[i, j] = round((d * 8) * transport_multiplier, 2) # Empty return
                     else:
-                        loaded_cost_matrix[i, j] = round(d * 9, 2) # Loaded travel
+                        loaded_cost_matrix[i, j] = round((d * 9) * transport_multiplier, 2) # Loaded travel
 
         return {
             'num_nodes': n_split,
